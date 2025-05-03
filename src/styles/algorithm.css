@@ -1,0 +1,40 @@
+
+
+.algoContainer {
+  background-color: #1e293b;
+  text-align: center;
+  overflow: hidden;
+  height: 100vh; /* Full height of the viewport */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.graph-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 425px;
+  width: 600px;
+  border-radius: 30px;
+  margin: 0 auto;
+  background-color: aliceblue; /* Set background color */
+}
+
+.graph {
+  height: 450px;
+  width: 100%;
+  align-self: center;
+}
+
+.title {
+  color: white;
+}
+
+.btn {
+  margin: 10px;
+  padding: 10px;
+}
+
+.feedback {
+  color: white;
+}

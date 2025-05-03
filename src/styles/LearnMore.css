@@ -1,0 +1,93 @@
+/* Background Styling */
+.accordionStyle {
+  background-size: cover;
+  background-position: center;
+  background-color: #1e293b;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to the top */
+  align-items: center;
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
+/* Title and Description */
+.lmHeaderStyle {
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0; /* Stick to the top of the page */
+  z-index: 1000; /* Ensure it stays above other content */
+  padding: 10px 0; /* Add some padding for better visibility */
+}
+
+.lmHeaderStyle h1 {
+  font-size: 50px;
+  font-weight: 1000;
+  background: linear-gradient(to right, #ff00cc, #8103ff);
+  background-clip: text; /* Standard property */
+  -webkit-background-clip: text; /* For Safari & Chrome */
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.descriptionStyle {
+  font-size: 20px;
+  font-weight: 500;
+  color: #b1b1b1;
+  max-width: 80%;
+  margin-top: 10px;
+}
+
+/* Accordion Styling */
+.accordion {
+  width: 80%;
+  max-width: 900px;
+  background-color: transparent;
+  border-radius: 10px;
+  position: sticky; /* Make the accordion sticky */
+  top: 60px; /* Adjust based on the height of the header */
+  z-index: 999; /* Ensure it stays below the header but above other content */
+}
+
+.accordion-item {
+  background-color: rgba(30, 41, 59);
+  border: 1px solid rgba(240, 248, 255, 0.2);
+  border-radius: 10px;
+}
+
+.accordion-button {
+  background-color: rgba(129, 3, 255, 0.1);
+  color: #f0f8ff;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.accordion-button:hover {
+  background-color: rgba(129, 3, 255, 0.2);
+  color: #ffffff;
+}
+
+.accordion-body {
+  color: aliceblue;
+  font-size: 18px;
+  padding: 20px;
+}
+
+/* Code Block Styling */
+pre {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+/* Button Styling */
